@@ -22,7 +22,7 @@ class Userseeder extends Seeder
         User::factory()->create([
             'name' => 'mahasiswa',
             'email' => 'mahasiswa@unsur.ac.id',
-        ])->asiignRole('mahasiswa');
+        ])->assignRole('mahasiswa');
 
     }
 }
