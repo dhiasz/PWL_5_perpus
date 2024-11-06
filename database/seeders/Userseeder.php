@@ -23,6 +23,6 @@ class Userseeder extends Seeder
             'name' => 'mahasiswa',
             'email' => 'mahasiswa@unsur.ac.id',
         ])->assignRole('mahasiswa');
-
+            //ini user
     }
 }
